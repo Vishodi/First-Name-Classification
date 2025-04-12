@@ -8,10 +8,10 @@ base_model:
 - distilbert/distilbert-base-uncased
 pipeline_tag: text-classification
 ---
-# Last Name Classification Model
+# First Name Classification Model
 [![Support](https://img.shields.io/badge/Support-Us-brightgreen)](https://nowpayments.io/donation/Vishodi)
 
-A Transformer-based classifier that checks if a provided last name is likely to be **real** (LABEL_1) or **fake** (LABEL_0). This can be helpful in validating contact form submissions, preventing bot entries, or for general name classification tasks.
+A Transformer-based classifier that checks if a provided First name is likely to be **real** (LABEL_1) or **fake** (LABEL_0). This can be helpful in validating contact form submissions, preventing bot entries, or for general name classification tasks.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
@@ -22,7 +22,7 @@ A Transformer-based classifier that checks if a provided last name is likely to 
 
 ## Project Structure
 ```plaintext
-Last_Name_Prediction/
+First_Name_Prediction/
 ├── .gitattributes
 ├── README.md
 ├── config.json
